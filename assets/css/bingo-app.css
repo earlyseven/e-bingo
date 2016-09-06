@@ -1,0 +1,29 @@
+table td {
+	vertical-align: middle;
+	text-align: center;
+}
+
+#draw-balls-set td {
+	color: #fff;
+	background: #000;
+	width: 60px;
+	height: 60px;
+}
+
+#player-cards-set table {
+	border: 2px solid #000;
+	margin: 5px; 
+	float:left;
+}
+
+#player-cards-set table td {
+	border: 1px solid #000;
+	font-size: 16px;
+	padding: 1px;
+	width: 30px;
+	height: 30px;
+}
+
+#player-cards-set table td.matched {
+	background: #ff0;
+}
